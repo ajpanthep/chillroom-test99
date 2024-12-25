@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .signature {
+    font-family: 'Cursive', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    padding: 20px;
+   
+  }
+
+  .main-content p{
+    text-align: justify;
+    /* border: 1px solid red; */
+  }
+  
+  .image-large img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #e4e3e1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    color: #555;
+    
+  }
+  
+.card img{
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0 30px 50px rgba(0,0,0,.2);
+}
+
+  .card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ .image-small{
+  display: flex;
+  justify-content: space-between;
+ } 
+
+  .image-small img,
+  .plants img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
+  }
+  
+  footer {
+    background: #222;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p,
+  .footer-section ul,
+  .footer-section input {
+    font-size: 0.9rem;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section input {
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-top: 10px;
+  }
+  
+  .footer-section button {
+    padding: 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
